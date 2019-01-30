@@ -32,20 +32,16 @@
    
   </view>
 <!-- <swiper></swiper> -->
-<swiper
-  indicator-dots="{{indicatorDots}}"
-  autoplay="false"
-  duration="1000"
->
+<swiper class="swiper-container">
     <swiper-item>
-      <view class="swiper-recommend">123123</view>
+      <scroll-view class="swiper-recommend">1</scroll-view>
     </swiper-item>
     <swiper-item>
-      <view class="swiper-all">123123</view>
+      <scroll-view class="swiper-all">2</scroll-view>
     </swiper-item>
-    <swiper>
-      <view class="swiper-like">123123</view>
-    </swiper>
+    <swiper-item>
+      <scroll-view class="swiper-like">3</scroll-view>
+    </swiper-item>
 </swiper>
 
   <!-- 操作数据库 -->
