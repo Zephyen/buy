@@ -86,13 +86,10 @@ page {
 .menu-recommend {
   width: 30%;
   height: 100%;
-  border-color:aqua;
 }
 .menu-all{
   width:30%;
   height: 100%;
-  border: 1rpx;
-  border-color: #222
 }
 .menu-like{
   width:30%;
